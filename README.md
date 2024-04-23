@@ -1,85 +1,42 @@
-# Online-Banking-System
+# Online Banking System
 
+Welcome to the Online Banking System project! This system provides a platform for users to perform various banking activities online.
 
-This is a Database Project on Online Banking System in PHP.
+## Installation
 
+To run the project locally on your machine, follow these steps:
 
+1. **Prerequisites**: Ensure you have XAMPP installed on your system. You can download XAMPP from [here](https://www.apachefriends.org/index.html).
 
-The Online Banking System is an application for maintaining a person's account in a bank. 
+2. **Clone the Repository**: Clone this repository to your local machine using the following command:
 
+git clone https://github.com/hisurajbhai/Online-banking.git
 
-In this project we have tried to show the working of a banking account system and cover the basic functionality of a 
-Online Banking System. 
+3. **Setup XAMPP**:
+- Install XAMPP and start the Apache and MySQL services.
+- Navigate to the XAMPP installation directory and find the `htdocs` folder. This is where you will place the project files.
 
+4. **Create Database**:
+- Open your web browser and go to `http://localhost/phpmyadmin`.
+- Log in to phpMyAdmin.
+- Create a new database named `net_banking`.
 
-To develop a project for solving financial applications of a customer in banking environment in order to nurture the needs of an end banking user by providing various ways to perform banking tasks. 
+5. **Import SQL File**:
+- Inside the project folder, you will find a file named `database.sql`. Import this file into the `net_banking` database you created earlier. This will set up the necessary tables and data for the project.
 
+6. **Configuration**:
+- Navigate to the `config` folder within the project.
+- Open `database.php` and update the database configurations according to your local setup (if necessary).
 
-Also, to enable the user’s work space to have additional functionalities which are not provided under a conventional banking project. 
+7. **Run the Application**:
+- Open your web browser and go to `http://localhost/<project-folder-name>`.
+- You should now see the home page of the Online Banking System.
 
+## Usage
 
-
-
-
-
-
-
-
-The main aim of this project is to develop software for Online Banking System. 
-
-
-
-This project has been developed to carry out the processes easily and quickly, which is not possible with the manual systems,
-which are overcome by this software. 
-
-
-In the present scenario the banking sector is the common need in everyday life. 
-
-
-In day to day life we face problems and then we realize something is not done in this sector. 
-
-
-In this process time is more as well as here more manual work is needed which increases man power. 
-
-
-This project is developed using PHP programming language and MYSQL is used for database connection.
-
-
-The project analyses the system requirements and then comes up with the requirements specifications. 
-
-
-The system is then designed in accordance specifications to satisfy the requirements.
-
-
-
-
-
-
-
-SOFTWARE REQUIREMENTS:
-
-
-
-• Operating system : Windows XP/7/10.
-
-•  Front End : PHP
-
-•  Back end: MySQL
-
-•  Database : MYSQL (Install XAMPP)
-
-•  Server: XAMPP
-
-
-
-
-
-
-Technologies used:
-
-• PHP
-
-• Mysql
-
-
+- Once the application is running, users can register for an account, log in, and perform various banking activities such as:
+- Viewing account balance
+- Transferring funds between accounts
+- Paying bills
+- Managing transactions
 
